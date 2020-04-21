@@ -1,0 +1,17 @@
+.syntax--vue {
+  .syntax--tag {
+    .syntax--entity.syntax--attribute-name {
+      color: @secondary;
+    }
+  }
+
+  &.syntax--directive {
+    .syntax--punctuation,
+    .syntax--separator {
+      color: @accent;
+    }
+    .syntax--entity.syntax--attribute-name {
+      color: @accent;
+    }
+  }
+}

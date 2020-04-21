@@ -1,0 +1,37 @@
+.syntax--js {
+  &.syntax--operator {
+    &.syntax--accessor,
+    &.syntax--spread {
+      color: @syntax-text-color;
+    }
+  }
+
+  &.syntax--string {
+    &.syntax--unquoted {
+      color: @secondary;
+    }
+  }
+
+  &.syntax--shorthandpropertyname {
+    color: @accent;
+  }
+}
+
+// Typescript
+.syntax--ts {
+  &.syntax--decorator {
+    color: @accent;
+
+    .syntax--variable {
+      color: @accent;
+    }
+
+    .syntax--brace,
+    .syntax--bracket,
+    .syntax--curly,
+    .syntax--begin,
+    .syntax--end {
+      color: @accent;
+    }
+  }
+}

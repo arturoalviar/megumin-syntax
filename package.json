@@ -1,0 +1,19 @@
+{
+  "name": "megumin-syntax",
+  "theme": "syntax",
+  "author": "Arturo Alviar <yo@arturoalviar.com>",
+  "version": "0.0.0",
+  "description": "我が名はめぐみん。 Explosion!",
+  "keywords": [
+    "anime",
+    "konosuba",
+    "megumin",
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/arturoalviar/megumin-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
